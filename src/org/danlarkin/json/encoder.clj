@@ -24,7 +24,8 @@
 ;; THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 (ns org.danlarkin.json.encoder
-  (:import (java.io Writer StringWriter)))
+  (:import (java.io Writer StringWriter)
+           (clojure.lang IPersistentMap)))
 
 (def
  #^{:private true}
